@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        // console.log("Ingrese una puntuacion del 0 al 100")
+        // var puntuacion = parseInt(prompt("Ingrese una puntuación:"));
+        // if (puntuacion>=90 && puntuacion<=100){
+        //     console.log("A")
+        // } else if(puntuacion>=80 && puntuacion<90){
+        //     console.log("B")
+        // }else if (puntuacion>=70 && puntuacion<80){
+        //     console.log("C")
+        // }else if (puntuacion>=60 && puntuacion<70){
+        //     console.log("D")
+        // }else if (puntuacion<60 && puntuacion>=0){
+        //     console.log("F")
+        // }else {
+        //     console.log("Numero fuera de Rango")
+        // }
+        console.log("Ingrese dos numeros");
+        var num1 = parseFloat(prompt("Ingrese el primer número:"));
+        var num2 = parseFloat(prompt("Ingrese el segundo número:"));
+        console.log("Escoga la operacion a realizar")
+        console.log("1. suma")
+        console.log("2. resta")
+        console.log("3. multiplicacion")
+        console.log("4. division")
+
+        var operacion = parseInt(prompt("Ingrese el número de la operación (1-4):"));
+        switch (operacion) {
+            case 1: console.log(num1+num2);
+                
+                break;
+            case 2: console.log(num1-num2);
+                
+                break;
+            case 3: console.log(num1*num2);
+                
+                break;
+
+            case 4: console.log(num1/num2);
+                
+        }
+
+
+
+    </script>
+</body>
+</html>
